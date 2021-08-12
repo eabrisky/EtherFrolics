@@ -1,0 +1,100 @@
+/* --------------------------------------------------------------------------------
+Grid
+-------------------------------------------------------------------------------- */
+
+.grid {
+  display: flex;
+  flex: 0 1 auto;
+  /* defaults to 'row' */
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* defaults to 'flex-start' */
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.grid-col {
+  flex: 0 0 auto;
+  padding: 0 0.5rem 0.5rem;
+  box-sizing: border-box;
+}
+
+.welcome {
+  text-align: center;
+  display: inline;
+  padding: 5px 5px 5px 5px;
+  background-color: #7FBF7F;
+  width: 100%;
+}
+
+.infoCardStepper {
+  margin-top: 10px;
+}
+
+.cardHeading {
+  padding: 8px 8px 15px 8px;
+}
+
+.userNav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.infoCarousel {
+  border-radius: 2%;
+  padding: 16px 0 16px 0;
+  width: 317px;
+  max-height: 825px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row-reverse wrap;
+}
+
+.titleViewHeading {
+  display: flex;
+  align-items: flex-end;
+  flex-flow: row-reverse wrap;
+  background-image: url("../../images/IMG_1194.JPG");
+  background-color: #7FBF7F;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-height: 546px;
+  height: 475px;
+}
+
+.globe {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.organizationPillars {
+  width: 100%;
+  max-height: 825px;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: #588585;
+}
+
+.userLink {
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  background-color: #98CBCB;
+  align-self: center;
+  height: 75px;
+}
+
+.subhead {
+  background-color: rgba(88, 133, 133, 0.60);
+  border-radius: 10%;
+  align-self: flex-start;
+  width: 100%;
+}
+
+.login{
+  background-color: #588558;
+}

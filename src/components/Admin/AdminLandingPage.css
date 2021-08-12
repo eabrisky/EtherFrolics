@@ -1,0 +1,11 @@
+.adminLandingTitle {
+    text-align: center;
+    padding: 20px;
+}
+
+.buttonCorral {
+    text-align: center;
+    display: inline-grid;
+    padding: 75px;
+    margin: 5%;
+}
